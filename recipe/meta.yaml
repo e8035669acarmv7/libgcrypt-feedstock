@@ -25,7 +25,7 @@ test:
   commands:
     - test -f $PREFIX/lib/libgcrypt.so  # [linux]
     - conda inspect linkages {{ name }}
-    - conda inspect objects {{ name }} # [osx]
+    - conda inspect objects {{ name }}  # [osx]
 
 about:
   home: https://gnupg.org/software/index.html
