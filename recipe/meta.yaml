@@ -11,18 +11,21 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: True  # [not linux]
+  number: 1
+  skip: True  # [win]
 
 requirements:
   build:
+    - toolchain
     - libgpg-error 1.27
   run:
     - libgpg-error 1.27
 
 test:
   commands:
-    - test -f $PREFIX/lib/libgcrypt.so
+    - test -f $PREFIX/lib/libgcrypt.so  # [linux]
+    - conda inspect linkages {{ name }}
+    - conda inspect objects {{ name }}  # [osx]
 
 about:
   home: https://gnupg.org/software/index.html
@@ -33,3 +36,4 @@ about:
 extra:
   recipe-maintainers:
     - martindurant
+    - mariusvniekerk
