@@ -11,15 +11,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
+  run_exports:
+   - {{ pin_subpackage('libgcrypt') }}
 
 requirements:
   build:
-    - toolchain
-    - libgpg-error 1.27
-  run:
-    - libgpg-error 1.27
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - libgpg-error
 
 test:
   commands:
