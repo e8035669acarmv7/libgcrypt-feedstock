@@ -14,14 +14,16 @@ Summary: a general purpose cryptographic library originally based on code from G
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libgcrypt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libgcrypt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libgcrypt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libgcrypt-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libgcrypt-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libgcrypt-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libgcrypt-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libgcrypt-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libgcrypt/badges/version.svg)](https://anaconda.org/conda-forge/libgcrypt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libgcrypt/badges/downloads.svg)](https://anaconda.org/conda-forge/libgcrypt)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libgcrypt-green.svg)](https://anaconda.org/conda-forge/libgcrypt) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgcrypt.svg)](https://anaconda.org/conda-forge/libgcrypt) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgcrypt.svg)](https://anaconda.org/conda-forge/libgcrypt) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgcrypt.svg)](https://anaconda.org/conda-forge/libgcrypt) |
 
 Installing libgcrypt
 ====================
