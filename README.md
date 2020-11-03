@@ -142,4 +142,5 @@ Feedstock Maintainers
 
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
 * [@martindurant](https://github.com/martindurant/)
+* [@mbargull](https://github.com/mbargull/)
 
