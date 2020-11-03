@@ -3,7 +3,7 @@ About libgcrypt
 
 Home: https://gnupg.org/software/index.html
 
-Package license: GPL-2.0
+Package license: LGPL-2.1-or-later AND GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libgcrypt-feedstock/blob/master/LICENSE.txt)
 
