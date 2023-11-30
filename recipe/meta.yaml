@@ -7,8 +7,6 @@ package:
 source:
   url: https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-{{ version }}.tar.bz2
   sha256: 8b0870897ac5ac67ded568dcfadf45969cfa8a6beb0fd60af2a9eadc2a3272aa
-  patches:
-    - rCfa21ddc158b5d7b5900856e5b131071302217a51.patch
 
 build:
   number: 0
